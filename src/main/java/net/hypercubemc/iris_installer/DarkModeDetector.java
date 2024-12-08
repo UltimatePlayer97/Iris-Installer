@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.regex.Pattern;
 
+// Based off HanSolo's Detector, with added support for GNOME, and removed support for macOS accent colors for Java 8 compatibility. Original: https://gist.github.com/HanSolo/7cf10b86efff8ca2845bf5ec2dd0fe1d
 public class DarkModeDetector {
     public enum OperatingSystem {WINDOWS, MACOS, LINUX, NONE}
 
